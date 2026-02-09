@@ -67,14 +67,14 @@ Key focus areas:
 
 ## Todo list (actionable items)
 
-- [x] Create new resume (1/25/26) — master resume created; pick an editor/format and keep canonical copy.
-- [x] Supervisor discussion: CISC 4900 & NDA (1/26/26) — aligned on requirements and NDA constraints.
-- [x] Update resume with keywords & metrics (1/28/26) — added keywords/metrics; retain a metrics list for future updates.
-- [x] Create `README.md` for testing prescription sending/receiving (1/28/26) — initial README created; expand with run steps.
-- [~] Test & debug against Surescript Staging (1/29/26) — in progress; capture failing cases and reproduction steps.
-- [~] Add Pytest tests & fixtures; run locally before merging (1/30/26) — in progress; add fixtures/mocks to speed local runs.
-- [ ] Prepare HIPAA compliance checklist (1/31/26) — draft checklist to be produced and reviewed.
-- [x] Team discussion: plans for next week (1/31/26) — short planning meeting held; next actions assigned.
+- [x] Create new resume — master resume created; pick an editor/format and keep canonical copy.
+- [x] Supervisor discussion: CISC 4900 & NDA — aligned on requirements and NDA constraints.
+- [x] Update resume with keywords & metrics — added keywords/metrics; retain a metrics list for future updates.
+- [x] Create `README.md` for testing prescription sending/receiving — initial README created; expand with run steps.
+- [~] Test & debug against Surescript Staging  — in progress; capture failing cases and reproduction steps.
+- [~] Add Pytest tests & fixtures; run locally before merging — in progress; add fixtures/mocks to speed local runs.
+- [ ] Prepare HIPAA compliance checklist  — draft checklist to be produced and reviewed.
+- [x] Team discussion: plans for next week  — short planning meeting held; next actions assigned.
 
 Legend: [x]=done, [~]=in-progress, [ ]=not started
 

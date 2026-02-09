@@ -41,14 +41,14 @@ Week 2 captures documentation and testing planning, security and EMR feature wor
 4.  Update README with new test/run instructions and security considerations — Medium
 5.  Sync with supervisor and team on outstanding work and blockers — Low
 
-## Todo checklist (derived from entries)
+## Todo checklist
 
-- [x] Generate plans/testing docs based on last week's meeting (2/2/26)
-- [x] Study testing harness expectations and identify required fixtures (2/4/26)
-- [~] Add EMR features: allow pharmacies to retract prescriptions (2/5/26)
-- [~] Add EMR security: block non-EPCS users from approving controlled substances (2/5–2/6/26)
-- [x] Team discussion: next-week plans and feature updates (2/6/26)
-- [x] Supervisor discussion: progress report and plan alignment (2/7/26)
+- [x] Generate plans/testing docs based on last week's meeting 
+- [x] Study testing harness expectations and identify required fixtures 
+- [~] Add EMR features: allow pharmacies to retract prescriptions 
+- [~] Add EMR security: block non-EPCS users from approving controlled substances 
+- [x] Team discussion: next-week plans and feature updates 
+- [x] Supervisor discussion: progress report and plan alignment
 
 Legend: [x]=done, [~]=in-progress, [ ]=not-started
 
@@ -63,12 +63,3 @@ Legend: [x]=done, [~]=in-progress, [ ]=not-started
 - Primary developer: finish code & tests (target: next 1–3 days)
 - QA/Dev: implement fixtures and run harness conversion (target: this sprint)
 - Project lead: review security checklist and confirm launch blockers (target: next team meeting)
-
-## Assumptions
-
-- Testing harness documentation and access to any required staging endpoints are available to the team.
-- EPCS enforcement requires role/permission checks that can be validated via automated tests.
-
----
-
-_Generated from raw entries for Feb 2–7, 2026._
