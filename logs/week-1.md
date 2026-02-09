@@ -10,7 +10,7 @@ Key focus areas:
 - Testing & Debugging: Test and debug interactions with Surescript Staging; add Pytest cases and fixtures.
 - Non-technical: Resume updates, supervisor coordination, and HIPAA compliance planning.
 
-## Raw entries (source)
+## Entrie
 
 - 1/25/26 | 2.0 hrs | Other
   - Activity: Created new resume based on experience, project skills and education.
@@ -87,13 +87,5 @@ Legend: [x]=done, [~]=in-progress, [ ]=not started
 
 ## Notes & assumptions
 
-- Staging credentials must be shared securely; do not commit secrets.
+- Staging credentials must be shared securely; do not commit secrets. Use python script to get 2FA code.
 - Pytest is the test framework in use; if the project uses another runner, adapt accordingly.
-
-## How to use this file
-
-- Use this as the canonical Week 1 plan. Update the checkboxed todo list as tasks progress and add single-line notes for completed items with a date and name.
-
----
-
-_Generated from daily entries for Jan 25–31, 2026._
