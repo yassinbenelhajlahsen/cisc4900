@@ -6,6 +6,8 @@ This repository documents my internship-based capstone project completed as part
 
 The capstone emphasizes real-world engineering work, including backend development, system integrations, security, testing, and collaboration within a production healthcare environment.
 
+See the [logs](logs) folder for weekly and day by day status updates and TODO list.
+
 ## Internship Context
 
 - **Company:** Soaper  
