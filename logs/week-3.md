@@ -28,6 +28,7 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
 
 - 2026-02-11 | 5.0 hrs | Coding
   - Activity: Refactored component to support approve, deny, validate, and full medication edit workflows.
+  - Reference: [See below: UI change examples (screenshots)](#ui-change-examples-screenshots)
 
 ## Insights & implications
 
@@ -60,6 +61,24 @@ Legend: [x]=done, [~]=in-progress, [ ]=not-started
 - Run local tests with new fixtures to validate EPCS/retraction logic.
 - Schedule a follow-up team sync if SureScript response is delayed.
 
+## UI change examples (screenshots)
+
+Reference folder: `screenshots/RxMessageView`
+
+- Before: `screenshots/RxMessageView/Before.png`
+  - The legacy RX message view used a generic request summary/details layout with simple right-rail actions.
+  - Approve and deny were present, but the state transition and provider workflow context were less explicit in the main content area.
+
+- After (Approve example): `screenshots/RxMessageView/Approve.png`
+  - Added clearer prescription header/status presentation with an approved state badge.
+  - Status card on the right confirms approval with timestamp, reducing ambiguity after action.
+  - Action area supports approve/reject flow while preserving quick actions and clinical context.
+
+- After (Deny example): `screenshots/RxMessageView/Deny.png`
+  - Denied state is surfaced with a red status indicator and denial confirmation card.
+  - Denial outcome is visible at a glance alongside the same order/timeline context used in approval.
+  - Layout supports denial reason workflow and keeps action controls consistent with approval behavior.
+
 ## Owners & targets
 
 - Primary developer: capture cases and build mocks (target: end of day)
@@ -68,6 +87,6 @@ Legend: [x]=done, [~]=in-progress, [ ]=not-started
 
 ## Notes & assumptions
 
-- SureScript staging issues may be temporary; assume response within 24-48 hours. (Has taken up to 4-5 days in the past though)
+- SureScript staging issues may be temporary; assume response within 24-48 hours. (has taken up to 4-5 days in the past though)
 - Local mocks should mimic staging behavior closely to avoid false positives in testing.
 - HIPAA compliance remains a priority; ensure any test data redacts PHI.
