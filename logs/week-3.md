@@ -18,6 +18,10 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
   - Activity: Research Redis to better understand caching system and applicability to our backend.
   - Note: Still awaiting instructions from SureScript staging on failing test cases, so I decided to learn Redis on my own to make productive progress. Redis can be used to reduce API calls and speed up loading times and app performance — considering trying it in a small personal project to get hands-on experience and improve user-facing performance.
 
+- 2026-02-11 | 1.5 hrs | Team Discussion
+  - Activity: Awaiting instructions/help from SureScripts; started planning how to work around issues on their end.
+  - Outcome: Decided to wait before more testing to avoid redoing work once they locate the bug.
+
 ## Insights & implications
 
 - Staging failures from SureScript can block progress; having local mocks/fixtures allows continued development.
