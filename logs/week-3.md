@@ -22,6 +22,13 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
   - Activity: Awaiting instructions/help from SureScripts; started planning how to work around issues on their end.
   - Outcome: Decided to wait before more testing to avoid redoing work once they locate the bug.
 
+- 2026-02-11 | 1.5 hrs | Design
+  - Activity: Designed updated RX inbox (`RxMessageView.tsx`) UI layout including status card, action island, denial reason workflow, and medication edit dialog to support renewal, change, and new prescription requests.
+  - Note: Ensuring UI clearly communicates prescription state without overwhelming providers; validate layout decisions with real clinical workflows.
+
+- 2026-02-11 | 5.0 hrs | Coding
+  - Activity: Refactored component to support approve, deny, validate, and full medication edit workflows.
+
 ## Insights & implications
 
 - Staging failures from SureScript can block progress; having local mocks/fixtures allows continued development.
