@@ -9,6 +9,7 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
 - 2026-02-09 | 0.5 hrs | Other
   - Activity: Back-and-forth emailing SureScript staging about some issues on their end.
   - Note: Some test cases are unexpectedly failing; waiting for their response.
+  - Description: Inbound messages to our EMR should automatcally pass if its inserted to our DB. The RxChangeRequest is also visible in the frontend but still fails. See [Screenshot from Surescript Certification Testing](../screenshots/surescripts/bug.png)
 
 - 2026-02-09 | 1.5 hrs | Team Discussion
   - Activity: Describe issues faced with the testing harness and plan temporary mitigations while waiting on SureScript.
@@ -22,13 +23,14 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
   - Activity: Awaiting instructions/help from SureScripts; started planning how to work around issues on their end.
   - Outcome: Decided to wait before more testing to avoid redoing work once they locate the bug.
 
+
 - 2026-02-11 | 1.5 hrs | Design
   - Activity: Designed updated RX inbox (`RxMessageView.tsx`) UI layout including status card, action island, denial reason workflow, and medication edit dialog to support renewal, change, and new prescription requests.
   - Note: Ensuring UI clearly communicates prescription state without overwhelming providers; validate layout decisions with real clinical workflows.
 
 - 2026-02-11 | 5.0 hrs | Coding
   - Activity: Refactored component to support approve, deny, validate, and full medication edit workflows.
-  - Reference: [See below: UI change examples (screenshots)](#ui-change-examples-screenshots)
+  - Reference: [See below: UI change description](#ui-change-examples-screenshots)
 
 ## Insights & implications
 
@@ -63,7 +65,7 @@ Legend: [x]=done, [~]=in-progress, [ ]=not-started
 
 ## UI change examples (screenshots)
 
-Reference folder: `screenshots/RxMessageView`
+Reference folder: [screenshots/RxMessageView](../screenshots/RxMessageView/)
 
 - Before: `screenshots/RxMessageView/Before.png`
   - The legacy RX message view used a generic request summary/details layout with simple right-rail actions.
