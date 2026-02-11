@@ -14,6 +14,10 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
   - Activity: Describe issues faced with the testing harness and plan temporary mitigations while waiting on SureScript.
   - Outcome: Agreed on short-term plans: increase mocks/fixtures for local runs, capture failing test cases with reproduction steps, and prioritize highest-severity flows (EPCS and retraction).
 
+- 2026-02-10 | 3.5 hrs | Research, Training, Learning
+  - Activity: Research Redis to better understand caching system and applicability to our backend.
+  - Note: Still awaiting instructions from SureScript staging on failing test cases, so I decided to learn Redis on my own to make productive progress. Redis can be used to reduce API calls and speed up loading times and app performance — considering trying it in a small personal project to get hands-on experience and improve user-facing performance.
+
 ## Insights & implications
 
 - Staging failures from SureScript can block progress; having local mocks/fixtures allows continued development.
