@@ -32,6 +32,10 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
   - Activity: Refactored component to support approve, deny, validate, and full medication edit workflows.
   - Reference: [See below: UI change description](#ui-change-examples-screenshots)
 
+- 2026-02-12 | 3.0 hrs | Coding
+  - Activity: Continued work from yesterday by adding local state updates, status mapping, SureScripts denial code handling, and UI action locking for renewal, change, and new prescription requests.
+  - Outcome: Improved prescription workflow reliability and reduced dependency on page refreshes, making EMR inbox behavior more production-ready and aligned with backend state logic.
+
 ## Insights & implications
 
 - Staging failures from SureScript can block progress; having local mocks/fixtures allows continued development.
@@ -54,6 +58,10 @@ Week 3 captures initial work on Feb 9-14, 2026: communications with SureScript s
 - [ ] Create local mocks/fixtures for SureScript
 - [ ] Add unit tests for EPCS/retraction flows
 - [ ] Escalate to SureScript support if no response
+- [x] Continue RX inbox workflow implementation in `RxMessageView.tsx` (approve/deny/edit/state transitions)
+- [x] Add local state updates and status mapping to reduce page-refresh dependency
+- [x] Implement SureScripts denial code mapping and denial-reason handling in UI
+- [x] Add action locking for renewal, change, and new prescription request flows
 
 Legend: [x]=done, [~]=in-progress, [ ]=not-started
 
