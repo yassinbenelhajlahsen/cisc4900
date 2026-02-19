@@ -15,6 +15,10 @@ Week 4 captures presentation prep work and a return to Surescripts certification
   - Activity: Surescripts responded and confirmed the issue was on their end; it was resolved.
   - Next: Continue testing and debugging code.
 
+- 2026-02-19 | 4.0 hrs | Coding
+  - Activity: Implemented missing features for cancellation handling.
+  - Details: Pharmacies can no longer deny a cancellation, cancellation messages are now received by the frontend, and fixed a backend-settings bug that broke passkey enrollment.
+
 ## Todo checklist
 
 - [x] Follow up with Surescripts on failing certification issue
