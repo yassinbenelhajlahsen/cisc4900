@@ -21,7 +21,7 @@ Week 4 captures presentation prep work and a return to Surescripts certification
 
 - 2026-02-20 | 1.5 hrs | Testing & Debugging
   - Activity: Fixed bug where renewal was blocked for Schedule II drugs.
-  - Details: The logic and plan was solid, but our testing harness expected to us send a new prescription within that renewal     request, not just an approval, to test if we allow refills for scheduled drugs, which is illegal.
+  - Details: Corrected validation logic to distinguish between renewal approvals (no refills allowed by law) and replacement prescriptions (allow refills because its a new prescription)
 
 - 2026-02-20 | 2.5 hrs | Coding
   - Activity: Create dev-only option to bypass passkey for prescribing controlled substances to speed up coding/debugging.
