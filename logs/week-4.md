@@ -28,14 +28,21 @@ Week 4 captures presentation prep work and a return to Surescripts certification
   - Details: All fixes are now implemented.
   - Next: Rerun the tests to see if new patches broke previous code.
 
+- 2026-02-21 | 1.0 hrs | Testing & Debugging
+  - Activity: Completed test run after fixes; all tests are passing.
+  - Details: Certification test status shows all accepted. References: [allAccepted (1)](../screenshots/surescripts/tests-status/allAccepted.png), [allAccepted (2)](../screenshots/surescripts/tests-status/allAccepted2.png)
+  - Next: Submit for review.
+
 ## Todo checklist
 
 - [x] Follow up with Surescripts on failing certification issue
 - [x] Confirm external staging issue resolution from Surescripts response
 - [x] Resolve Schedule II renewal handling issue for certification test flow
 - [x] Add dev-only passkey bypass for controlled-substance prescribing during debugging
-- [~] Continue testing and debugging code after fix
-- [ ] Rerun tests to verify new patches did not break previous code
-- [ ] Complete testing (within 2-3 weeks)
+- [x] Continue testing and debugging code after fix
+- [x] Rerun tests to verify new patches did not break previous code
+- [x] Complete testing
+- [ ] Test message routing
+- [ ] Security review
 
 Legend: [x]=done, [~]=in-progress, [ ]=not-started
