@@ -12,3 +12,9 @@
 
 - 2026-03-04 | 1 hr | Supervisor Discussion
   - Activity: Discuss potential new project, mapping out how the major insurance carriers handle prior auth.
+
+- 2026-03-05 | 4 hrs | Other
+  - Activity: Contact various IT insurance teams regarding prior auth data handling.
+
+- 2026-03-07 | 2.5 hrs | Other
+  - Activity: Continue work from 3/5; note data processing details for prior auth across insurance carriers.

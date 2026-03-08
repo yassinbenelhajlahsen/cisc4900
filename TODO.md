@@ -1,7 +1,7 @@
 # Todo
 
 ## Uncompleted
-- [ ] Insurance Prior Auth research *(Week 6)*
+- [ ] Document and finalize prior auth data handling notes across carriers *(Week 6)*
 - [ ] Fix various issues across platform *(Week 5)*
 - [ ] Security review *(Week 4)*
 - [ ] Test message routing *(Week 4)*
@@ -15,6 +15,7 @@
 
 ## Completed
 
+- [x] Contact IT insurance teams and document prior auth data handling/processing notes *(Week 6)*
 - [x] Implement multi-parameter radiology search feature using indexed database queries *(Week 6)*
 - [x] Make buttons function on prescription inbox screen *(Week 6)*
 - [x] Test various features across app to prepare for launch *(Week 5)*
