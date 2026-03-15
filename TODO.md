@@ -1,7 +1,6 @@
 # Todo
 
 ## Uncompleted
-- [ ] Document and finalize prior auth data handling notes across carriers *(Week 6)*
 - [ ] Fix various issues across platform *(Week 5)*
 - [ ] Security review *(Week 4)*
 - [ ] Test message routing *(Week 4)*
@@ -15,6 +14,11 @@
 
 ## Completed
 
+- [x] Implement prior authorization from research *(Week 7)*
+- [x] Improve resume and add side project improvements *(Week 7)*
+- [x] Make personal portfolio page — yassinb.me *(Week 7)*
+- [x] Improved features from insurance handling *(Week 7)*
+- [x] Fixed DB and insurance handling inconsistencies *(Week 7)*
 - [x] Contact IT insurance teams and document prior auth data handling/processing notes *(Week 6)*
 - [x] Implement multi-parameter radiology search feature using indexed database queries *(Week 6)*
 - [x] Make buttons function on prescription inbox screen *(Week 6)*
